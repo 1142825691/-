@@ -1,16 +1,15 @@
 <template>
-    <div>
-        这是pagecom2页面
-        <router-view />
+    <div id="app3">
+        这是主应用的pagecom页面 用来展示微前端的页面
+<!--        <router-view></router-view>-->
 
     </div>
 </template>
 
 <script>
-    // import {start} from "qiankun";
-
+    // import { start } from 'qiankun';
     export default {
-        name: "pagecom2",
+        name: "pagecom",
         // mounted() {
         //     if (!window.qiankunStarted) {
         //         window.qiankunStarted = true;

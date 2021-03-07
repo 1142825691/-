@@ -1,13 +1,12 @@
 <template>
     <div>
-        这是微前端1 的page1页面
-
+        pagecom2的嵌套子路由页面
     </div>
 </template>
 
 <script>
     export default {
-        name: "page1"
+        name: "child"
     }
 </script>
 

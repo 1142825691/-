@@ -1,6 +1,7 @@
 <template>
     <div>
-        这是微前端1 的page1页面
+        微前端1的页面
+        独占主应用一个路由
 
     </div>
 </template>

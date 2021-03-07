@@ -9,9 +9,20 @@ import { registerMicroApps, start } from 'qiankun';
 registerMicroApps([
   {
     name: 'wei1',
-    entry: '//localhost:8080',
-    container: '#app',
-    activeRule: '/app-vue',
+    //微前端地址
+    entry: '//localhost:8081',
+    //container 是容器的id 在拥有这个ID的时候会将子应用擦入到这个ip下面
+    container: '#app3',
+    //与微前端base相同
+    activeRule: '/micro1/',
+  },
+  {
+    name: 'wei2',
+    //微前端地址
+    entry: '//localhost:8082',
+    container: '#micro2',
+    //与微前端base相同
+    activeRule: '/micro2/',
   },
   // {
   //   name: 'vueApp',
