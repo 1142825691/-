@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "microFe": "./bin/index.js",
+    "microFe-add": "bin/add.js",
+    "microFe-delete": "bin/delete",
+    "microFe-list": "bin/list",
+    "microFe-init": "bin/init"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
