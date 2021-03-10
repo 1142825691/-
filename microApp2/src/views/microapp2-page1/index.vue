@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="#app3">
         这是应用2的page1页面
     </div>
 </template>

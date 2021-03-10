@@ -19,7 +19,7 @@ const routes = [
                 component: () => import('./views/pagecom2/child')
             },
             //每个微应用至少要有一个views来装载
-            //每个微应用直接不可以有重复的id
+            //每个微应用之间不可以有重复的id
             {
                 path: '/micro1/page1',
                 name: 'pagecom-micro1',
@@ -30,6 +30,14 @@ const routes = [
                 path: '/micro2/page1',
                 name: 'pagecom-micro2',
                 component: () => import('./views/pagecom-micro2'),
+                //微前端1嵌套到微前端2中（不推荐）
+                // children:[
+                //     {
+                //         path:'/micro1/micro1-2',
+                //         name:'pagecom-micro1-2',
+                //         component: () => import('./views/pagecom-micro1'),
+                //     }
+                // ]
             },
         ]
     },

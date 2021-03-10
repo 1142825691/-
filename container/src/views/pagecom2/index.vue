@@ -1,8 +1,8 @@
 <template>
     <div>
-        这是pagecom2页面
-        <router-view />
 
+        这是主应用,实现了嵌套路由
+        <router-view />
     </div>
 </template>
 

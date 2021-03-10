@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 import routes from "./router";
 Vue.config.productionTip = false
 Vue.use(VueRouter);
-import { registerMicroApps, start } from 'qiankun';
+import { registerMicroApps } from 'qiankun';
 
 registerMicroApps([
   {
@@ -32,7 +32,7 @@ registerMicroApps([
   // },
 ]);
 // 启动 qiankun
-start();
+// start();
 
 let router = new VueRouter({
   mode: 'history',
