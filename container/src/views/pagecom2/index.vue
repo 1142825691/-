@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="box">
 
         这是主应用,实现了嵌套路由
         <router-view />
@@ -21,5 +21,9 @@
 </script>
 
 <style scoped>
-
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background: #42b983;
+    }
 </style>

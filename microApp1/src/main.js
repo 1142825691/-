@@ -30,6 +30,7 @@ if (!window.__POWERED_BY_QIANKUN__) {
 }
 
 export async function bootstrap() {
+
   console.log('bootstrap');
 }
 export async function mount(props) {

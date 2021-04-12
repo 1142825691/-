@@ -10,6 +10,7 @@ import page1 from './view/page1'
 const routes=[
     {path:'/page1',component:page1},
     {path:'/micro1-2',component:()=>import('./view/micro1-2')},
+    {path:'/routerTest',component:()=>import('./view/page1/routerTest')},
 ]
 
 
