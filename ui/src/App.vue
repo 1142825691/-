@@ -2,17 +2,16 @@
 <!--  <img alt="Vue logo" src="./assets/logo.png">-->
 <!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <p>这是子应用3</p>
-  <LButton></LButton>
-  <LInput></LInput>
+
 <!--  <li class="item_tip"-->
 <!--      @click="goto()">跳转</li>-->
+  <LButton></LButton>
   <router-view></router-view>
-
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import {onBeforeUnmount} from 'vue'
+import {onBeforeUnmount} from 'vue';
 export default {
   name: 'App',
   components: {

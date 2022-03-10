@@ -1,14 +1,16 @@
 import '../public-path';
 import { createApp } from 'vue'
+import uiTestNpm from 'ui-test-npm'
 import App from './App.vue'
 import routers from "./routers";
+import 'ui-test-npm/dist/ui-test-npm.css'
 let instance = null;
-
+console.log(uiTestNpm);
 function render(props = {}) {
     const { container } = props;
-    // console.log(12313);
     instance = createApp(App);
     instance.use(routers);
+    instance.use(uiTestNpm);
     instance.mount(container ? container.querySelector("#app") : "#app");
     // instance=createApp(App).use(routers).mount(container ? container.querySelector("#app") : "#app")
     // instance.abccba='112233'

@@ -5884,16 +5884,6 @@
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
 
-"ui-test-npm@^0.1.3":
-  "integrity" "sha512-iCjyM5FVCKB5g7O7s87SrVlm3kQlB+P2Ksvy0OfsSbwZOYZuXN9GWrJkTc2otm5EYXNnxWs6Y+wcoUu4l5KZ3g=="
-  "resolved" "https://registry.npmjs.org/ui-test-npm/-/ui-test-npm-0.1.3.tgz"
-  "version" "0.1.3"
-  dependencies:
-    "core-js" "^3.8.3"
-    "user" "^0.0.0"
-    "vue" "^3.2.13"
-    "vue-router" "^4.0.13"
-
 "unicode-canonical-property-names-ecmascript@^2.0.0":
   "integrity" "sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ=="
   "resolved" "https://registry.npmmirror.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz"
@@ -5935,8 +5925,8 @@
     "punycode" "^2.1.0"
 
 "user@^0.0.0":
-  "integrity" "sha1-8n8bI/xRHyqO+kDbVc+6Ejgk4Co="
-  "resolved" "https://registry.npmjs.org/user/-/user-0.0.0.tgz"
+  "integrity" "sha512-eRNM5isOvr6aEFAGi1CqAkmLkYxW2NJ5ThhbD+6IJXYKM1mo7Gtxx4mQIveHz/5K3p/SVnlW9k17ETn+QAu8IQ=="
+  "resolved" "https://registry.npmmirror.com/user/-/user-0.0.0.tgz"
   "version" "0.0.0"
 
 "util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
