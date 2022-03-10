@@ -16,13 +16,21 @@ registerMicroApps([
     //与微前端base相同
     activeRule: '/micro1/',
   },
+  // {
+  //   name: 'wei2',
+  //   //微前端地址
+  //   entry: '//localhost:8082',
+  //   container: '#micro2',
+  //   //与微前端base相同
+  //   activeRule: '/micro2/',
+  // },
   {
-    name: 'wei2',
+    name: 'wei3',
     //微前端地址
     entry: '//localhost:8082',
-    container: '#micro2',
+    container: '#app4',
     //与微前端base相同
-    activeRule: '/micro2/',
+    activeRule: '/micro3/',
   },
   // {
   //   name: 'vueApp',

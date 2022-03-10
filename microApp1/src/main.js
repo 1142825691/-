@@ -22,6 +22,7 @@ function render(props = {}) {
     // store,
     render: h => h(App),
   }).$mount(container ? container.querySelector('#app') : '#app');
+  instance.abccba=112233;
 }
 
 // 独立运行时
@@ -36,11 +37,12 @@ export async function bootstrap() {
 export async function mount(props) {
   console.log('mount', props);
   render(props);
+  console.log(instance);
 }
 export async function unmount() {
   console.log('unmount');
-  instance.$destroy();
-  instance.$el.innerHTML = '';
-  instance = null;
-  router = null;
+  // instance.$destroy();
+  // instance.$el.innerHTML = '';
+  // instance = null;
+  // router = null;
 }

@@ -43,9 +43,14 @@ const routes = [
     },
     //微应用独占一个主应用路由 放在路由的最后
     {
-        path: '/micro1/*',
+        path: '/micro1',
         name: 'micro1-page',
         component: () => import('./views/micro1-page'),
+    },
+    {
+        path: '/micro3/*',
+        name: 'micro3-page',
+        component: () => import('./views/micro3-page'),
     },
     // {
     //     path:'/pagecom',

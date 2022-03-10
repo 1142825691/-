@@ -2,6 +2,9 @@
   <div id="app">
 <!--    <img alt="Vue logo" src="./assets/logo.png">-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+
+    <li class="item_tip"
+        @click="goto()">跳转1</li>
     <router-view  />
   </div>
 </template>
@@ -14,6 +17,11 @@ export default {
   // components: {
   //   HelloWorld
   // }
+  methods:{
+    goto(){
+      history.pushState(null, '', '/micro1');
+    }
+  }
 }
 </script>
 

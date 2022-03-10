@@ -5,6 +5,7 @@
         <img src="../../../src/assets/logo.png" alt="">
         <p class="aaa">微应用跳转自己路由</p>
         <div @click="toRouterText">跳转到routerText</div>
+      <a href="/">跳转跟目录</a>
     </div>
 </template>
 
