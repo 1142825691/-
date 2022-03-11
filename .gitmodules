@@ -1,0 +1,3 @@
+[submodule "mainapp/bin/sub_mod"]
+	path = mainapp/bin/sub_mod
+	url = https://github.com/1142825691/WOW.git
